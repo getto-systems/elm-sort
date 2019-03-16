@@ -1,5 +1,10 @@
 image: node:11.11.0-stretch
 
+test:
+  script:
+    - npm install
+    - npm test
+
 release:
   only:
     - release@getto-systems-labo/elm/sort

@@ -43,7 +43,7 @@ module Getto.Sort exposing
         ]
 
 # Definition
-@docs Value, Direction
+@docs Value, Direction, State
 
 # Construction
 @docs by

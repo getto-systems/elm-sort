@@ -75,7 +75,7 @@ type Direction
  -}
 type alias State =
   { current : Maybe Direction
-  , next : Value
+  , next    : Value
   }
 
 
